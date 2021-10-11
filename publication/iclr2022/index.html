@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Flexible neural sequence models outperform grammar and automaton based counterparts on a variety of tasks. However, neural models perform poorly in settings requiring compositional generalization beyond the training data, particularly to rare or unseen subsequences. Past work has found symbolic scaffolding (e.g. grammars or automata) essential in these settings. We present a family of learned data augmentation schemes that support a large category of compositional generalizations without appeal to latent symbolic structure. Our approach to data augmentation has two components: recombination of original training examples via a prototype-based generative model and resampling of generated examples to encourage extrapolation. Training an ordinary neural sequence model on a dataset augmented with recombined and resampled examples significantly improves generalization in two language processing problems, instruction following (SCAN) and morphological analysis (Sigmorphon 2018), where our approach enables learning of new constructions and tenses from as few as eight initial examples.">
+  <meta name="description" content="Few-shot class incremental learning---the problem of updating a trained classifier to discriminate among an expanded set of classes with limited labeled data---is a key challenge for machine learning systems deployed in non-stationary environments. Existing approaches to the problem rely on complex model architectures and training procedures that are difficult to tune and re-use. In this paper, we present an extremely simple approach that enables the use of ordinary logistic regression classifiers for few-shot incremental learning. The key to this approach is a new family of subspace regularization schemes that encourage weight vectors for new classes to lie close to the subspace spanned by the weights of existing classes. When combined with pretrained convolutional feature extractors, logistic regression models trained with subspace regularization outperform specialized, state-of-the-art approaches to few-shot incremental image classification by up to 22% on the *mini*ImageNet dataset. Because of its simplicity, subspace regularization can be straightforwardly extended to incorporate additional background information about the new classes (including class names and descriptions specified in natural language); these further improve accuracy by up to 2%. Our results show that simple geometric regularization of class representations offer an effective tool for continual learning.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://feyzaakyurek.github.io/publication/iclr2021/">
+  <link rel="alternate" hreflang="en-us" href="https://feyzaakyurek.github.io/publication/iclr2022/">
 
   
 
@@ -215,7 +215,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://feyzaakyurek.github.io/publication/iclr2021/">
+  <link rel="canonical" href="https://feyzaakyurek.github.io/publication/iclr2022/">
 
   
   
@@ -232,9 +232,9 @@
   <meta property="twitter:creator" content="@afeyzaakyurek">
   
   <meta property="og:site_name" content="Afra Feyza Akyürek">
-  <meta property="og:url" content="https://feyzaakyurek.github.io/publication/iclr2021/">
-  <meta property="og:title" content="Learning to Recombine and Resample Data for Compositional Generalization | Afra Feyza Akyürek">
-  <meta property="og:description" content="Flexible neural sequence models outperform grammar and automaton based counterparts on a variety of tasks. However, neural models perform poorly in settings requiring compositional generalization beyond the training data, particularly to rare or unseen subsequences. Past work has found symbolic scaffolding (e.g. grammars or automata) essential in these settings. We present a family of learned data augmentation schemes that support a large category of compositional generalizations without appeal to latent symbolic structure. Our approach to data augmentation has two components: recombination of original training examples via a prototype-based generative model and resampling of generated examples to encourage extrapolation. Training an ordinary neural sequence model on a dataset augmented with recombined and resampled examples significantly improves generalization in two language processing problems, instruction following (SCAN) and morphological analysis (Sigmorphon 2018), where our approach enables learning of new constructions and tenses from as few as eight initial examples."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
+  <meta property="og:url" content="https://feyzaakyurek.github.io/publication/iclr2022/">
+  <meta property="og:title" content="Subspace Regularizers for Few-Shot Class Incremental Learning | Afra Feyza Akyürek">
+  <meta property="og:description" content="Few-shot class incremental learning---the problem of updating a trained classifier to discriminate among an expanded set of classes with limited labeled data---is a key challenge for machine learning systems deployed in non-stationary environments. Existing approaches to the problem rely on complex model architectures and training procedures that are difficult to tune and re-use. In this paper, we present an extremely simple approach that enables the use of ordinary logistic regression classifiers for few-shot incremental learning. The key to this approach is a new family of subspace regularization schemes that encourage weight vectors for new classes to lie close to the subspace spanned by the weights of existing classes. When combined with pretrained convolutional feature extractors, logistic regression models trained with subspace regularization outperform specialized, state-of-the-art approaches to few-shot incremental image classification by up to 22% on the *mini*ImageNet dataset. Because of its simplicity, subspace regularization can be straightforwardly extended to incorporate additional background information about the new classes (including class names and descriptions specified in natural language); these further improve accuracy by up to 2%. Our results show that simple geometric regularization of class representations offer an effective tool for continual learning."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:square]"><meta property="og:locale" content="en-us">
   
     
@@ -262,16 +262,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://feyzaakyurek.github.io/publication/iclr2021/"
+    "@id": "https://feyzaakyurek.github.io/publication/iclr2022/"
   },
-  "headline": "Learning to Recombine and Resample Data for Compositional Generalization",
+  "headline": "Subspace Regularizers for Few-Shot Class Incremental Learning",
   
   "datePublished": "2017-01-01T00:00:00Z",
   "dateModified": "2020-09-30T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Ekin Akyürek"
+    "name": "Afra Feyza Akyürek"
   },
   
   "publisher": {
@@ -282,7 +282,7 @@
       "url": "https://feyzaakyurek.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Flexible neural sequence models outperform grammar and automaton based counterparts on a variety of tasks. However, neural models perform poorly in settings requiring compositional generalization beyond the training data, particularly to rare or unseen subsequences. Past work has found symbolic scaffolding (e.g. grammars or automata) essential in these settings. We present a family of learned data augmentation schemes that support a large category of compositional generalizations without appeal to latent symbolic structure. Our approach to data augmentation has two components: recombination of original training examples via a prototype-based generative model and resampling of generated examples to encourage extrapolation. Training an ordinary neural sequence model on a dataset augmented with recombined and resampled examples significantly improves generalization in two language processing problems, instruction following (SCAN) and morphological analysis (Sigmorphon 2018), where our approach enables learning of new constructions and tenses from as few as eight initial examples."
+  "description": "Few-shot class incremental learning---the problem of updating a trained classifier to discriminate among an expanded set of classes with limited labeled data---is a key challenge for machine learning systems deployed in non-stationary environments. Existing approaches to the problem rely on complex model architectures and training procedures that are difficult to tune and re-use. In this paper, we present an extremely simple approach that enables the use of ordinary logistic regression classifiers for few-shot incremental learning. The key to this approach is a new family of subspace regularization schemes that encourage weight vectors for new classes to lie close to the subspace spanned by the weights of existing classes. When combined with pretrained convolutional feature extractors, logistic regression models trained with subspace regularization outperform specialized, state-of-the-art approaches to few-shot incremental image classification by up to 22% on the *mini*ImageNet dataset. Because of its simplicity, subspace regularization can be straightforwardly extended to incorporate additional background information about the new classes (including class names and descriptions specified in natural language); these further improve accuracy by up to 2%. Our results show that simple geometric regularization of class representations offer an effective tool for continual learning."
 }
 </script>
 
@@ -300,7 +300,7 @@
 
 
 
-  <title>Learning to Recombine and Resample Data for Compositional Generalization | Afra Feyza Akyürek</title>
+  <title>Subspace Regularizers for Few-Shot Class Incremental Learning | Afra Feyza Akyürek</title>
 
 </head>
 
@@ -546,7 +546,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Learning to Recombine and Resample Data for Compositional Generalization</h1>
+  <h1>Subspace Regularizers for Few-Shot Class Incremental Learning</h1>
 
   
 
@@ -564,7 +564,7 @@
     
 
   
-  <span><a href="/authors/ekin-akyurek/">Ekin Akyürek</a></span>, <span><a href="/authors/afra-feyza-akyurek/">Afra Feyza Akyürek</a></span>, <span><a href="/authors/jacob-andreas/">Jacob Andreas</a></span>
+  <span><a href="/authors/afra-feyza-akyurek/">Afra Feyza Akyürek</a></span>, <span><a href="/authors/ekin-akyurek/">Ekin Akyürek</a></span>, <span><a href="/authors/derry-wijaya/">Derry Wijaya</a></span>, <span><a href="/authors/jacob-andreas/">Jacob Andreas</a></span>
   </div>
   
   
@@ -618,14 +618,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2010.03706" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -655,7 +649,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Flexible neural sequence models outperform grammar and automaton based counterparts on a variety of tasks. However, neural models perform poorly in settings requiring compositional generalization beyond the training data, particularly to rare or unseen subsequences. Past work has found symbolic scaffolding (e.g. grammars or automata) essential in these settings. We present a family of learned data augmentation schemes that support a large category of compositional generalizations without appeal to latent symbolic structure. Our approach to data augmentation has two components: recombination of original training examples via a prototype-based generative model and resampling of generated examples to encourage extrapolation. Training an ordinary neural sequence model on a dataset augmented with recombined and resampled examples significantly improves generalization in two language processing problems, instruction following (SCAN) and morphological analysis (Sigmorphon 2018), where our approach enables learning of new constructions and tenses from as few as eight initial examples.</p>
+    <p class="pub-abstract">Few-shot class incremental learning&mdash;the problem of updating a trained classifier to discriminate among an expanded set of classes with limited labeled data&mdash;is a key challenge for machine learning systems deployed in non-stationary environments. Existing approaches to the problem rely on complex model architectures and training procedures that are difficult to tune and re-use. In this paper, we present an extremely simple approach that enables the use of ordinary logistic regression classifiers for few-shot incremental learning. The key to this approach is a new family of subspace regularization schemes that encourage weight vectors for new classes to lie close to the subspace spanned by the weights of existing classes. When combined with pretrained convolutional feature extractors, logistic regression models trained with subspace regularization outperform specialized, state-of-the-art approaches to few-shot incremental image classification by up to 22% on the <em>mini</em>ImageNet dataset. Because of its simplicity, subspace regularization can be straightforwardly extended to incorporate additional background information about the new classes (including class names and descriptions specified in natural language); these further improve accuracy by up to 2%. Our results show that simple geometric regularization of class representations offer an effective tool for continual learning.</p>
     
 
     
@@ -685,7 +679,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Learning to Recombine and Resample Data for Compositional Generalization</div>
+          <div class="col-12 col-md-9">Subspace Regularizers for Few-Shot Class Incremental Learning</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -730,7 +724,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://feyzaakyurek.github.io/publication/iclr2021/&amp;text=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://feyzaakyurek.github.io/publication/iclr2022/&amp;text=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -743,7 +737,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://feyzaakyurek.github.io/publication/iclr2021/&amp;t=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://feyzaakyurek.github.io/publication/iclr2022/&amp;t=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -756,7 +750,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization&amp;body=https://feyzaakyurek.github.io/publication/iclr2021/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning&amp;body=https://feyzaakyurek.github.io/publication/iclr2022/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -769,7 +763,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://feyzaakyurek.github.io/publication/iclr2021/&amp;title=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://feyzaakyurek.github.io/publication/iclr2022/&amp;title=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -782,7 +776,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization%20https://feyzaakyurek.github.io/publication/iclr2021/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning%20https://feyzaakyurek.github.io/publication/iclr2022/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -795,7 +789,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://feyzaakyurek.github.io/publication/iclr2021/&amp;title=Learning%20to%20Recombine%20and%20Resample%20Data%20for%20Compositional%20Generalization" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://feyzaakyurek.github.io/publication/iclr2022/&amp;title=Subspace%20Regularizers%20for%20Few-Shot%20Class%20Incremental%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -812,6 +806,34 @@
 
 
 
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/afra-feyza-akyurek/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
 
 
   
@@ -859,7 +881,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/afra-feyza-akyurek/"></a></h5>
+      <h5 class="card-title"><a href="/authors/derry-wijaya/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
