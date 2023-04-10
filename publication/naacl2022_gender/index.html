@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="PhD Student in Computer Science">
+  <meta name="description" content="Researchers have devised numerous ways to quantify social biases vested in pretrained language models. As some language models are capable of generating coherent completions given a set of textual prompts, several prompting datasets have been proposed to measure biases between social groups -- posing language generation as a way of identifying biases. In this opinion paper, we analyze how specific choices of prompt sets, metrics, automatic tools and sampling strategies affect bias results. We find out that the practice of measuring biases through text completion is prone to yielding contradicting results under different experiment settings. We additionally provide recommendations for reporting biases in open-ended language generation for a more complete outlook of biases exhibited by a given language model. Code to reproduce the results is released under https://github.com/feyzaakyurek/bias-textgen.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://feyzaakyurek.github.io/authors/derry-wijaya/">
+  <link rel="alternate" hreflang="en-us" href="https://feyzaakyurek.github.io/publication/naacl2022_gender/">
 
   
 
@@ -210,14 +210,12 @@
 
 
   
-  <link rel="alternate" href="/authors/derry-wijaya/index.xml" type="application/rss+xml" title="Afra Feyza Akyürek">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://feyzaakyurek.github.io/authors/derry-wijaya/">
+  <link rel="canonical" href="https://feyzaakyurek.github.io/publication/naacl2022_gender/">
 
   
   
@@ -234,18 +232,61 @@
   <meta property="twitter:creator" content="@afeyzaakyurek">
   
   <meta property="og:site_name" content="Afra Feyza Akyürek">
-  <meta property="og:url" content="https://feyzaakyurek.github.io/authors/derry-wijaya/">
-  <meta property="og:title" content="Derry Wijaya | Afra Feyza Akyürek">
-  <meta property="og:description" content="PhD Student in Computer Science"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
+  <meta property="og:url" content="https://feyzaakyurek.github.io/publication/naacl2022_gender/">
+  <meta property="og:title" content="Challenges in Measuring Bias via Open-Ended Language Generation | Afra Feyza Akyürek">
+  <meta property="og:description" content="Researchers have devised numerous ways to quantify social biases vested in pretrained language models. As some language models are capable of generating coherent completions given a set of textual prompts, several prompting datasets have been proposed to measure biases between social groups -- posing language generation as a way of identifying biases. In this opinion paper, we analyze how specific choices of prompt sets, metrics, automatic tools and sampling strategies affect bias results. We find out that the practice of measuring biases through text completion is prone to yielding contradicting results under different experiment settings. We additionally provide recommendations for reporting biases in open-ended language generation for a more complete outlook of biases exhibited by a given language model. Code to reproduce the results is released under https://github.com/feyzaakyurek/bias-textgen."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:square]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-01-02T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-01-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-10-30T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://feyzaakyurek.github.io/publication/naacl2022_gender/"
+  },
+  "headline": "Challenges in Measuring Bias via Open-Ended Language Generation",
+  
+  "datePublished": "2023-01-01T00:00:00Z",
+  "dateModified": "2022-10-30T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Afra Feyza Akyürek"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Afra Feyza Akyürek",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://feyzaakyurek.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Researchers have devised numerous ways to quantify social biases vested in pretrained language models. As some language models are capable of generating coherent completions given a set of textual prompts, several prompting datasets have been proposed to measure biases between social groups -- posing language generation as a way of identifying biases. In this opinion paper, we analyze how specific choices of prompt sets, metrics, automatic tools and sampling strategies affect bias results. We find out that the practice of measuring biases through text completion is prone to yielding contradicting results under different experiment settings. We additionally provide recommendations for reporting biases in open-ended language generation for a more complete outlook of biases exhibited by a given language model. Code to reproduce the results is released under https://github.com/feyzaakyurek/bias-textgen."
+}
+</script>
+
+  
 
   
 
@@ -253,10 +294,13 @@
   
 
 
+  
 
 
 
-  <title>Derry Wijaya | Afra Feyza Akyürek</title>
+
+
+  <title>Challenges in Measuring Bias via Open-Ended Language Generation | Afra Feyza Akyürek</title>
 
 </head>
 
@@ -481,56 +525,419 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Derry Wijaya</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Challenges in Measuring Bias via Open-Ended Language Generation</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span><a href="/authors/afra-feyza-akyurek/">Afra Feyza Akyürek</a></span>, <span><a href="/authors/muhammed-yusuf-kocyigit/">Muhammed Yusuf Kocyigit</a></span>, <span><a href="/authors/sejin-paik/">Sejin Paik</a></span>, <span><a href="/authors/derry-wijaya/">Derry Wijaya</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Researchers have devised numerous ways to quantify social biases vested in pretrained language models. As some language models are capable of generating coherent completions given a set of textual prompts, several prompting datasets have been proposed to measure biases between social groups &ndash; posing language generation as a way of identifying biases. In this opinion paper, we analyze how specific choices of prompt sets, metrics, automatic tools and sampling strategies affect bias results. We find out that the practice of measuring biases through text completion is prone to yielding contradicting results under different experiment settings. We additionally provide recommendations for reporting biases in open-ended language generation for a more complete outlook of biases exhibited by a given language model. Code to reproduce the results is released under <a href="https://github.com/feyzaakyurek/bias-textgen">https://github.com/feyzaakyurek/bias-textgen</a>.</p>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/acl2023/">Generating Natural Language Feedback with Reinforcement Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/comm_research/">Agenda Setting, Cross-cutting Effects, and Political Expression on Social Media The Gun Violence Case</a>
-        </li>
-        
-        <li>
-          <a href="/publication/naacl2022_gender/">Challenges in Measuring Bias via Open-Ended Language Generation</a>
-        </li>
-        
-        <li>
-          <a href="/publication/naacl2022/">On Measuring Social Biases in Prompt-Based Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/iclr2022/">Subspace Regularizers for Few-Shot Class Incremental Learning</a>
-        </li>
-        
-        <li>
-          <a href="/publication/acl2022/">Low-Resource Machine Translation Training Curriculum Fit for Low-Resource Languages</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Challenges in Measuring Bias via Open-Ended Language Generation</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- <div class="alert alert-note">
+  <div>
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
-</section>
+</div>
+
+
+<div class="alert alert-note">
+  <div>
+    Click the <em>Slides</em> button above to demo Academic&rsquo;s Markdown slides feature.
+  </div>
+</div>
+ -->
+<!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). -->
+</div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://feyzaakyurek.github.io/publication/naacl2022_gender/&amp;text=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://feyzaakyurek.github.io/publication/naacl2022_gender/&amp;t=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation&amp;body=https://feyzaakyurek.github.io/publication/naacl2022_gender/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://feyzaakyurek.github.io/publication/naacl2022_gender/&amp;title=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation%20https://feyzaakyurek.github.io/publication/naacl2022_gender/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://feyzaakyurek.github.io/publication/naacl2022_gender/&amp;title=Challenges%20in%20Measuring%20Bias%20via%20Open-Ended%20Language%20Generation" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/afra-feyza-akyurek/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/muhammed-yusuf-kocyigit/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/sejin-paik/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/derry-wijaya/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</div>
 
       
 
