@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Under review.">
+  <meta name="description" content="We train a small feedback generator to improve the outputs of a large language model.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://feyzaakyurek.github.io/publication/acl2023/">
@@ -234,7 +234,7 @@
   <meta property="og:site_name" content="Afra Feyza Akyürek">
   <meta property="og:url" content="https://feyzaakyurek.github.io/publication/acl2023/">
   <meta property="og:title" content="Generating Natural Language Feedback with Reinforcement Learning | Afra Feyza Akyürek">
-  <meta property="og:description" content="Under review."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
+  <meta property="og:description" content="We train a small feedback generator to improve the outputs of a large language model."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:square]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:square]"><meta property="og:locale" content="en-us">
   
     
@@ -282,7 +282,7 @@
       "url": "https://feyzaakyurek.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Under review."
+  "description": "We train a small feedback generator to improve the outputs of a large language model."
 }
 </script>
 
@@ -618,14 +618,32 @@
 
 
   
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2023.acl-long.427/" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/feyzaakyurek/rl4f" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://feyzaakyurek.github.io/rl4f-blog/" target="_blank" rel="noopener">
+  Project
+</a>
 
 
 
@@ -649,7 +667,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Under review.</p>
+    <p class="pub-abstract">Despite their unprecedented success, even the largest language models make mistakes. Similar to how humans learn and improve using feedback, previous work proposed providing language models with natural language feedback to guide them in repairing their outputs. Because human-generated critiques are expensive to obtain, researchers have devised learned critique generators in lieu of human critics while assuming one can train downstream models to utilize generated feedback. However, this approach does not apply to black-box or limited access models such as ChatGPT, as they cannot be fine-tuned. Moreover, in the era of large general-purpose language agents, fine-tuning is neither computationally nor spatially efficient as it results in multiple copies of the network. In this work, we introduce RL4F (Reinforcement Learning for Feedback), a multi-agent collaborative framework where the critique generator is trained to maximize end-task performance of GPT-3, a fixed model more than 200 times its size. RL4F produces critiques that help GPT-3 revise its outputs. We study three datasets for action planning, summarization and alphabetization and show relative improvements up to 10% in multiple text similarity metrics over other learned, retrieval-augmented or prompting-based critique generators.</p>
     
 
     
@@ -679,7 +697,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Generating Natural Language Feedback with Reinforcement Learning</div>
+          <div class="col-12 col-md-9">RL4F Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs</div>
         </div>
       </div>
       <div class="col-md-1"></div>
