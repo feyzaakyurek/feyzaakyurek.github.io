@@ -1,0 +1,36 @@
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+"ICLR":
+  url: https://iclr.cc/
+
+"PRICAI":
+  url: https://www.pricai.org/2023/
+
+"ACL":
+  url: https://aclanthology.org/venues/acl/
+
+"Neurips":
+  url: https://nips.cc/
+
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
+
+"TACL":
+  url: https://transacl.org/index.php/tacl
+
+"GeBNLP":
+  url: https://aclanthology.org/venues/gebnlp/
+
+"NAACL":
+  url: https://aclanthology.org/venues/naacl/
+
+"TEI":
+  url: https://dl.acm.org/conference/tei
+
+"DIFF":
+  url: https://diffprogramming.mit.edu/

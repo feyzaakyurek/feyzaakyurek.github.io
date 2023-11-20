@@ -1,0 +1,33 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Ekin Akyürek
+    - name: Languages
+      value: English, Turkish
+
+- title: Education
+  type: time_table
+  contents:
+    - title: MS
+      institution: Massachusetts Institute of Technology, U.S.A
+      year: 2021
+      description:
+        - Electrical Engineering and Computer Science
+    - title: BS
+      institution: Koç University, Türkiye
+      year: 2019
+      description:
+        - Electrical Engineering 
+        - Physics
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - Area Chair Award at ACL 2023
+    - year: 2013
+      items: 
+        - Bronze medal at International Physics Olympiad
+

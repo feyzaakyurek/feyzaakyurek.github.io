@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<!-- page.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+  <article>
+    <div class="news">
+      {% if site.talks != blank -%}
+      {%- assign talks_size = site.talks | size -%}
+      <div class="table-responsive" {% if include.limit and site.announcements.scrollable and talks_size > 3 %}style="max-height: 20vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+        {%- assign talks = site.talks | reverse -%}
+        {% if include.limit and site.talks.limit %}
+        {% assign talks_limit = site.talks.limit %}
+        {% else %}
+        {% assign talks_limit = talks_size %}
+        {% endif %}
+        {% for item in talks limit: talks_limit %}
+          <tr>
+            <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
+            <td>
+              <a class="news-title" href="{{ item.videourl | relative_url }}">{{ item.title }}</a>
+            </td>
+          </tr>
+        {%- endfor %}
+        </table>
+      </div>
+    {%- else -%}
+      <p>No talks so far...</p>
+    {%- endif %}
+    </div>
+  </article>
