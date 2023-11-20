@@ -29,12 +29,8 @@
 <lastmod>2019-03-15T17:01:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/2022/displaying-external-posts-on-your-al-folio-blog/</loc>
-<lastmod>2022-04-23T19:20:09-04:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/seniordesignproject/</loc>
-<lastmod>2023-11-13T10:27:03-05:00</lastmod>
+<lastmod>2023-11-20T15:52:42-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/talks/rnr/</loc>
@@ -65,6 +61,9 @@
 <loc>http://localhost:4000/talks/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/_pages/bio/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/tag/deep-learning/</loc>
 </url>
 <url>
@@ -72,8 +71,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/2019/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/2022/</loc>
 </url>
 </urlset>
