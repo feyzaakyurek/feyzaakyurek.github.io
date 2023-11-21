@@ -1,34 +1,89 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Akyürek":
+  - firstname: ["Ekin"]
+    url: https://ekinakyurek.github.io/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Andreas":
+  - firstname: ["Jacob", "Jacob D.", "J. D."]
+    url: https://www.mit.edu/~jda/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Edelman":
+  - firstname: ["Alan"]
+    url: https://math.mit.edu/~edelman/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Guu":
+  - firstname: ["Kelvin"]
+    url: https://www.kelvinguu.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Yuret":
+  - firstname: ["Deniz"]
+    url: http://www.denizyuret.com/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Wijaya":
+  - firstname: ["Derry", "Derry Tanti"]
+    url: https://derrywijaya.github.io/web/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Kim":
+  - firstname: ["Yoon"]
+    url: https://people.csail.mit.edu/yoonkim/
+  - firstname: ["Najoung"]
+    url: https://najoung.kim/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Ross":
+  - firstname: ["Alexis"]
+    url: https://alexisjihyeross.github.io/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Clark":
+  - firstname: ["Peter"]
+    url: https://allenai.org/team/peterc
+
+"Schuurmans":
+  - firstname: ["Dale"]
+    url: https://webdocs.cs.ualberta.ca/~dale/
+
+"Zhou":
+  - firstname: ["Denny"]
+    url: https://dennyzhou.github.io/
+
+"Ma":
+  - firstname: ["Tengyu"]
+    url: https://ai.stanford.edu/~tengyuma/
+
+"Tandon":
+  - firstname: ["Niket"]
+    url: https://allenai.org/team/nikett
+
+"Kalyan":
+  - firstname: ["Ashwin"]
+    url: http://ashwinkalyan.com/
+
+"Wang":
+  - firstname: ["Bailin"]
+    url: https://berlino.github.io/
+
+"Qiu":
+  - firstname: ["Linlu"]
+    url: https://linlu-qiu.github.io/
+
+"Wu":
+  - firstname: ["Zhaofeng"]
+    url: https://zhaofengwu.github.io/
+
+"Schärli":
+  - firstname: ["Nathanael"]
+    url: https://scholar.google.com/citations?user=64RoFnUAAAAJ&hl=en
+
+"Drozdov":
+  - firstname: ["Andrew"]
+    url: https://mrdrozdov.github.io/
+
+"Li":
+  - firstname: ["Shuang"]
+    url: https://people.csail.mit.edu/lishuang
+
+"Du":
+  - firstname: ["Yilun"]
+    url: https://yilundu.github.io/
+
+"Mordatch":
+  - firstname: ["Igor"]
+    url: https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en
