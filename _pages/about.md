@@ -21,7 +21,7 @@ I am a fifth-year Computer Science PhD student at Boston University focusing on 
 
 My research focuses on enhancing language model interactions to be more akin to human-like communication. This involves understanding how humans modify their knowledge and beliefs through feedback received in natural language. My specific interest lies in how such feedback, expressed in natural language, can guide a model’s outputs to align with facts, requirements, natural phenomena, or preferences. My aim is to develop methods that enable language models to incorporate this feedback consistently, thereby enhancing their alignment, consistency, and safety.
 
-I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). I earned my Master's in Statistics from Carnegie Mellon University. Recently, I had the enriching experience of collaborating with the talented team at Allen AI, as detailed in our joint work [here](https://aclanthology.org/2023.acl-long.427/) and I often collaborate with Jacob Andreas at MIT. **I am currently exploring opportunities in the industry job market.**
+I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). I earned my Master's in Statistics from Carnegie Mellon University. Recently, I had the enriching experience of collaborating with the talented team at [Allen AI](https://allenai.org/), as detailed in our joint work [here](https://aclanthology.org/2023.acl-long.427/) and I often collaborate with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT. **I am currently exploring opportunities in the industry job market.**
 
 
 **Improving Language Models with Feedback & Model-Editing**
