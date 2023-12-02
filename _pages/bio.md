@@ -1,5 +1,3 @@
-# Bio
-
 I was born and raised in the beautiful coastal city of Izmir in Turkey. I studied at Izmir Fen Lisesi where I met my favorite person on Earth. I have taken the nation-wide college admission test and was ranked 31st amid two million exam takers. I moved to Istanbul to study at Koc University and spent five amazing years double-majoring Computer Engineering and Industrial Engineering. Ekin and I married in 2018 and moved to the US. I started my PhD in Statistics at Carnegie Mellon and did a machine learning internship at Novartis Pharmaceuticals. I later moved to Boston to do my PhD in Computer Science, working on Natural Language Processing. I did an internship at Apple, working on gender bias in language models. I later did another internship at Allen AI with the Aristo team where we developed an automatic feedback generator.
 
 I am coming from a family of avid travelers and try to keep the spirit alive in the little family of ours.
