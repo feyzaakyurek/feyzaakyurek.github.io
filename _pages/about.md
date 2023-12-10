@@ -19,19 +19,23 @@ social: false  # includes social icons at the bottom of the page
 ---
 I am a fifth-year Computer Science PhD student at Boston University focusing on natural language processing.
 
-My research focuses on enhancing language model interactions to be more akin to human-like communication. This involves understanding how humans modify their knowledge and beliefs through feedback received in natural language. My specific interest lies in how such feedback, expressed in natural language, can *guide a model’s outputs to align with facts, requirements, natural phenomena, or preferences*. My aim is to develop methods that enable language models to incorporate this feedback consistently, thereby enhancing their alignment, consistency, and safety.
+My research focuses on enhancing language model interactions to be more akin to human-like communication. Having inspired by how humans modify their knowledge and beliefs through feedback received in natural language, my specific interest lies in how such feedback, expressed in natural language, can *guide a language model’s outputs to align with facts, requirements, natural phenomena, or preferences*. My aim is to develop methods that enable language models to incorporate this feedback consistently, thereby enhancing their alignment, reliability, and safety.
 
-I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). I earned my Master's in Statistics from Carnegie Mellon University. Recently, I had the enriching experience of collaborating with the talented team at [Allen AI](https://allenai.org/), as detailed in our joint work [here](https://aclanthology.org/2023.acl-long.427/) and I often collaborate with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT. **I am currently exploring opportunities in the industry job market!**
+I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). Recently, I had the enriching experience of collaborating with the talented teams at [Allen AI](https://allenai.org/), [Apple](https://machinelearning.apple.com/) and I often collaborate with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT.
 
 
-**Improving Language Models with Feedback & Model-Editing**
+<p style="text-align: center;">**I am currently exploring opportunities in the industry job market!**</p>
+
+
+
+**Improving Language Models with Feedback**
 
 How can we alter language models to adhere to natural language feedback?
 
 <div class="about-highlight" markdown="1">
-- I have devised an automatic [critique generator](https://arxiv.org/abs/2305.08844) which is rewarded via reinforcement learning as its critiques improved another model's predictions.
+- We have devised an automatic [critique generator](https://arxiv.org/abs/2305.08844) called RL4F which is trained with reinforcement learning. RL4F is trained via reinforcement learning and rewarded as long as the generated critiques improved a second model's predictions.
 
-- I am interested in aligning language models via natural language feedback, so I have led the curation of a model editing benchmark [DUnE](https://arxiv.org/abs/2311.16087) where edits are in natural language. We also showed that retrieval augmented language modeling is superior to specialized editing techniques when edits are natural language phrases.
+- I have led the curation of a model editing benchmark [DUnE](https://arxiv.org/abs/2311.16087) where edits are natural language sentences. We also showed that retrieval augmented language modeling is superior to specialized editing techniques when edits are natural language phrases.
 
 - Moreover, I have developed [a scheme](https://arxiv.org/abs/2110.07059) that enables growing the number of a classes that an object classifier can recognize using language information about the objects such as labels and descriptions.
 </div>
