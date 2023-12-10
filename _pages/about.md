@@ -24,7 +24,7 @@ My research focuses on enhancing language model interactions to be more akin to 
 I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). Recently, I had the enriching experience of collaborating with the talented teams at [Allen AI](https://allenai.org/), [Apple](https://machinelearning.apple.com/) and I often collaborate with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT.
 
 
-<p style="text-align: center;">**I am currently exploring opportunities in the industry job market!**</p>
+<p style="text-align: center;">I am currently exploring opportunities in the industry job market!</p>
 
 
 
