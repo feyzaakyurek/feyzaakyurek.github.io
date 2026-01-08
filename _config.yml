@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Afra Feyza
 middle_name:
 last_name: Akyürek
-email:
+email: akyurekafra@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Afra Feyza Akyürek | PhD student in computer science
+  Afra Feyza Akyürek | Research Scientist at Scale AI
 footer_text: >
   ""
 keywords: ai, ml, nlp, machine-learning, artificial-intelligence, natural-language-processing, computer science

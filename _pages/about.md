@@ -3,32 +3,29 @@ layout: about
 title: me
 permalink: /
 subtitle: >
-    PhD Student in Computer Science at Boston University
+    Research Scientist at Scale AI
     <!-- <p class="motto"> <em> motto </em> </p> -->
 profile:
   align: center
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p> akyurek [at] bu [dot] edu
-    <p> 665 Comm Ave, Boston, MA </p>
+    <p> akyurekafra [at] gmail [dot] com
+    <p> San Francisco Bay Area </p>
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-I am a fifth-year Computer Science PhD student at Boston University focusing on natural language processing.
+I am a Research Scientist at Scale AI, working on LLM post-training and evaluation. I received my PhD in Computer Science from Boston University in May 2025.
 
-My research focuses on enhancing language model interactions to be more akin to human-like communication. Having inspired by how humans modify their knowledge and beliefs through feedback received in natural language, my specific interest lies in how such feedback, expressed in natural language, can *guide a language model’s outputs to align with facts, requirements, natural phenomena, or preferences*. My aim is to develop methods that enable language models to incorporate this feedback consistently, thereby enhancing their alignment, reliability, and safety.
+My research focuses on self-learning and enhancing language model interactions to be more akin to human-like communication. Having inspired by how humans modify their knowledge and beliefs through feedback received in natural language or garnered from the environment, my specific interest lies in how such feedback, expressed in natural language, can *guide a language model’s outputs to align with facts, requirements, natural phenomena, or preferences*. My aim is to develop methods that enable language models to incorporate this feedback consistently, thereby enhancing their reliability.
 
-I have the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). Recently, I had the enriching experience of collaborating with the talented teams at [Allen AI](https://allenai.org/), [Apple](https://machinelearning.apple.com/) and I often collaborate with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT.
-
-
-<p style="text-align: center;">I am currently exploring opportunities in the industry job market!</p>
+During my PhD, I had the privilege of being guided by [Derry Wijaya](https://derrywijaya.github.io/web/). I had the enriching experience of collaborating with the talented teams at [Allen AI](https://allenai.org/), [Apple](https://machinelearning.apple.com/) and I often collaborated with [Jacob Andreas](https://www.mit.edu/~jda/) at MIT.
 
 
 
-**Improving Language Models with Feedback**
+<!-- **Improving Language Models with Feedback**
 
 How can we alter language models to adhere to natural language feedback?
 
@@ -38,18 +35,7 @@ How can we alter language models to adhere to natural language feedback?
 - I have led the curation of a model editing benchmark [DUnE](https://arxiv.org/abs/2311.16087) where edits are natural language sentences. We also showed that retrieval augmented language modeling is superior to specialized editing techniques when edits are natural language phrases.
 
 - Moreover, I have developed [a scheme](https://arxiv.org/abs/2110.07059) that enables growing the number of a classes that an object classifier can recognize using language information about the objects such as labels and descriptions.
-</div>
-
-<p></p>
-**Safety in Language Models**
-
-How to make language models safer with language feedback?
-
-<div class="about-highlight" markdown="1">
-- I have studied [bias measurement](https://arxiv.org/abs/2205.11605) in instruction-tuned language models and conducted sensitivity [analysis](https://arxiv.org/abs/2205.11601) for measuring bias in language models.
-
-- A significant portion of our model editing benchmark DUnE includes edits that solicit debiased model outputs. We [find](https://arxiv.org/abs/2311.16087) that language models struggle parsing the instructions that call for avoiding harmful biases and stereotypes.
-</div>
+</div> -->
 
 <h2 style="margin-top: 1rem;">biography</h2>
 {%- include_relative bio.md %}
