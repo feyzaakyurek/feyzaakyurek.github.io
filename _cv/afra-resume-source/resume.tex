@@ -1,0 +1,56 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+% \usepackage{geometry}
+
+%====================
+% File:         resume.tex
+% Editor:       https://github.com/TimmyChan
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Jan 7th, 2022
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file.
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Afra Feyza Akyürek} % Name Here
+\def\phone{(412) 773-2342}
+\def\city{San Francisco, CA}
+\def\email{akyurekafra@gmail.com}
+\def\LinkedIn{afrafeyzaakyurek} % linkedin.com/in/______
+\def\github{feyzaakyurek} % github username
+\def\gscholar{Google Scholar}
+\def\webpg{Personal Webpage}
+
+\input{_header}
+\begin{document}
+\input{sections/objective}
+
+\section{Education}
+\input{sections/education}
+
+\section{Work Experience}
+\input{sections/experience}
+
+\section{Publications}
+\input{sections/publications}
+
+% \section{Skills}
+% \input{sections/skills}
+\thispagestyle{empty}
+\setlength{\headheight}{50pt}
+\setlength{\headsep}{0pt}
+% \section{Talks}
+% \input{sections/talks}
+
+\section{Leadership, Honors and Awards}
+\input{sections/activities}
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+\end{document}
