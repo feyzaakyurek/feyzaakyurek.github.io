@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AA monogram">
+  <rect width="128" height="128" rx="26" fill="#1652ba"/>
+  <g
+    fill="#ffffff"
+    stroke="none"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="46"
+    font-weight="700"
+    text-anchor="middle"
+  >
+    <text x="40" y="80">A</text>
+    <text x="88" y="80">A</text>
+  </g>
+</svg>
